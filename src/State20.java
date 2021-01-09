@@ -12,11 +12,11 @@ public class State20 extends State {
 
 	@Override
 	public State addCoin(Moneda5 moneda) {
-		return new State15();
+		return new State10();
 	}
 
 	@Override
 	public State addCoin(Moneda10 moneda) {
-		return new State20();
+		return new State15();
 	}
 }

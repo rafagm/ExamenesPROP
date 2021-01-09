@@ -1,5 +1,5 @@
 
-public class StateInitial extends State{
+public class StateInitial extends State {
 
 	
 	public StateInitial() {
