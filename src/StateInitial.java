@@ -7,11 +7,6 @@ public class StateInitial extends State {
 	}
 
 	@Override
-	public boolean getLlauna() {
-		return false;
-	}
-
-	@Override
 	public State addCoin(Moneda5 moneda) {
 		return new State5();
 	}

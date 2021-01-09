@@ -2,9 +2,12 @@
 public abstract class State {
 	private int saldo;
 	
-	public abstract boolean getLlauna();
 	public abstract State addCoin(Moneda5 moneda);
 	public abstract State addCoin(Moneda10 moneda);
+	
+	public boolean getLlauna() {
+		return false;
+	}
 	
 	public int getSaldo() {
 		return saldo;
