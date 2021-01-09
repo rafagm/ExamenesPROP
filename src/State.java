@@ -9,10 +9,10 @@ public abstract class State {
 		return false;
 	}
 	
-	public int getSaldo() {
+	protected int getSaldo() {
 		return saldo;
 	}
-	public void setSaldo(int saldo) {
+	protected void setSaldo(int saldo) {
 		this.saldo = saldo;
 	}
 }
