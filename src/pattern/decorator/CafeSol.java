@@ -1,6 +1,6 @@
 package pattern.decorator;
 
-public class CafeSol extends Cafe {
+public class CafeSol implements Cafe {
 
 	@Override
 	public double getCost() {

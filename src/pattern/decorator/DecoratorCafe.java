@@ -1,6 +1,6 @@
 package pattern.decorator;
 
-public abstract class DecoratorCafe extends Cafe {
+public abstract class DecoratorCafe implements Cafe {
 	private Cafe cafeDecorat;
 
 	public DecoratorCafe(Cafe cafeDecorat) {

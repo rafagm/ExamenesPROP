@@ -1,6 +1,6 @@
 package pattern.decorator;
 
-public abstract class Cafe {
+public interface Cafe {
 	
 	public abstract double getCost();
 	public abstract String getIngredients();
