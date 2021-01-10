@@ -1,8 +1,9 @@
+package pattern.state;
 
-public class State15 extends State {
+public class State20 extends State {
 
-	public State15() {
-		setSaldo(0);
+	public State20() {
+		setSaldo(5);
 	}
 	
 	@Override
@@ -12,12 +13,11 @@ public class State15 extends State {
 
 	@Override
 	public State addCoin(Moneda5 moneda) {
-		return new State5();
+		return new State10();
 	}
 
 	@Override
 	public State addCoin(Moneda10 moneda) {
-		return new State10();
+		return new State15();
 	}
-
 }

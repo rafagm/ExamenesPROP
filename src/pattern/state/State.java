@@ -1,3 +1,4 @@
+package pattern.state;
 
 public abstract class State {
 	private int saldo;

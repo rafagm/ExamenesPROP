@@ -1,3 +1,4 @@
+package pattern.state;
 
 public class MaquinaVending {
 	private State state;

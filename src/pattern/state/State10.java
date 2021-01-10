@@ -1,3 +1,4 @@
+package pattern.state;
 
 public class State10 extends State {
 

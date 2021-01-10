@@ -1,9 +1,14 @@
+package pattern.state;
 
-public class StateInitial extends State {
+public class State15 extends State {
 
-	
-	public StateInitial() {
+	public State15() {
 		setSaldo(0);
+	}
+	
+	@Override
+	public boolean getLlauna() {
+		return true;
 	}
 
 	@Override
@@ -15,7 +20,5 @@ public class StateInitial extends State {
 	public State addCoin(Moneda10 moneda) {
 		return new State10();
 	}
-
-
 
 }
